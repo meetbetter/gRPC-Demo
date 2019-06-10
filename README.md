@@ -1,6 +1,6 @@
 # 说明
 
-介绍RCP作用，Go中原生和第三方RPC使用方法，环境搭建方法和材料。
+介绍RPC作用，Go中原生和第三方RPC使用方法，环境搭建方法和材料。
 
 [GitHub示例源码](https://github.com/meetbetter/gRPC-Demo)
 
