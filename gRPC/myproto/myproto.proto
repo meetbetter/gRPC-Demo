@@ -1,0 +1,23 @@
+//版本
+syntax = "proto3";
+
+//包名
+package myproto;
+
+//服务
+service Hello {
+    //这儿注释才有效
+    rpc GetAdd(In)returns(Out);//这儿注释无效
+}
+
+//传入
+message In {
+    //此处1不是赋值，而是指参数序号
+    int64 num = 1;
+}
+
+//传出
+message Out {
+    //此处1不是赋值，而是指参数序号
+    int64 size = 1;
+}
