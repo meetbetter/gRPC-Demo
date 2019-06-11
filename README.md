@@ -195,11 +195,11 @@ func main() {
 
 ## gRPC安装
 
-由于不能直接访问golang官网，所以安装gPRC和go扩展包比较麻烦，可以从本人[gRPC环境包安装](https://github.com/meetbetter/gRPC-Demo)中获取压缩包。
+由于不能直接访问golang官网，所以安装gPRC和go扩展包比较麻烦，可以从本人[gRPC环境包安装](https://github.com/meetbetter/gRPC-Demo)中获取压缩包再提取到指定目录。
 
 ```shell
-unzip x.zip -d /GOPATH/src/golang.org/x
-unzip google.golang.org.zip -d /GOPATH/src/google.golang.org
+unzip x.zip -d /$GOPATH/src/golang.org/x
+unzip google.golang.org.zip -d /$GOPATH/src/google.golang.org
 ```
 
 ## gRPC环境测试
